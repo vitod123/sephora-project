@@ -1,0 +1,42 @@
+.orderProduct{
+    .productImg{
+        max-width: 95px;
+        max-height: 95px;
+        margin: 8px 0;
+    }
+    .productName{
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+        color: #000000;
+    }
+    .productCategory{
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        color: #9D9D9D;
+        min-height: 20px;
+    }
+    .productPrice{
+        text-wrap: nowrap;
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+        color:#000000;
+    }
+    .count{
+        button{
+            border: 1px solid black;
+            border-radius: 0;
+            padding: 5px;
+            min-width: 0;
+            .img{
+                color: #000000;
+                height: 15px;
+                width: 15px;
+            }
+        }
+        .text{
+            font-family: 'Lato', sans-serif;
+            font-size: 14px;
+            padding: 0 10px;
+        }
+    }
+}

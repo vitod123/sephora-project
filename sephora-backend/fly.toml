@@ -1,0 +1,26 @@
+# fly.toml app configuration file generated for luxuryhub-api on 2024-01-13T23:07:26+02:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "luxuryhub-api"
+primary_region = "waw"
+
+[build]
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ["app"]
+
+[[vm]]
+  cpu_kind = "performance"
+  cpus = 2
+  memory_mb = 4096
+
+[mounts]
+  source="luxuryhub_assets"
+  destination="/assets"

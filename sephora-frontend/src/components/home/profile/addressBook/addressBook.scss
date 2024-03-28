@@ -1,0 +1,57 @@
+.addressBook{
+    .addAddress{
+        font-family: 'Lato', sans-serif;
+        font-size: 24px;
+    }
+
+    .name{    
+        font-family: 'Lato', sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .text{     
+        font-family: 'Lato', sans-serif;
+        font-size: 24px;
+        font-weight: 100;
+        color: #000;
+    }
+    .address{
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+        padding: 20px;
+    }
+    .line{
+        background: #688F74;
+        height: 1px;
+    }
+    .edit{
+        color: black;
+        line-height: 1;
+        border-bottom: 1px solid black;
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        text-transform: none;
+        padding: 0;
+        border-radius: 0;
+        min-width: 0px;
+    }
+    .containerScroll {
+        max-height: 500px;
+        overflow-y: auto;
+    }
+    .containerScroll::-webkit-scrollbar {
+        width: 6px;
+    }
+    
+    .containerScroll::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+    
+    .containerScroll::-webkit-scrollbar-thumb {
+        background-color: #D9D9D9;
+        border-radius: 6px;
+    }
+    
+    .containerScroll::-webkit-scrollbar-thumb:hover {
+        background-color: rgb(213, 213, 213);
+    }
+}

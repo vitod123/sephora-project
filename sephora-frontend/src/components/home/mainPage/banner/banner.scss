@@ -1,0 +1,127 @@
+.banner{
+    .bannerTitle{
+        color: #FFF;
+        text-align: center;
+        font-family: "Playfair Display";
+        font-size: 60px;
+        font-weight: 400;
+    }
+    
+    .bannerDescription{
+        color: #FFF;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-size: 28px;
+        font-weight: 400;
+        
+    }
+    
+    .bannerLink{
+        text-transform: none;
+        line-height: normal;
+        color: #FFF;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-size: 32px;
+        font-weight: 500;
+        padding: 19px 130px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 0;
+        border: 2px solid #FFF;
+    }
+    
+    .bannerStack{
+        padding: 0 35px;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+}
+    
+.fullSizeBanner{
+    .butBanner{
+        text-transform: none;
+        line-height: normal;
+        z-index: 2;
+        border: 2px solid #FFF;
+        background: #F2BCD6;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 12%;
+        bottom: 12%;
+        padding: 15px 110px;
+        color: #FFF;
+        font-family: 'Lato', sans-serif;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .butBanner:hover {
+        background: #dca6c0;
+    }
+}
+
+.mainBanner{
+    padding: 0 !important;
+    padding-bottom: '200px' !important;
+    position:"relative" !important;
+
+    .imgLeft{
+        filter: brightness(55%);
+    }
+  
+    .bannerTitle1{
+        width: 700px;
+        color: #FFF;
+        font-family: 'Lato', sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    
+    .butMainBanner{
+        margin-top: 6%;
+        text-transform: none;
+        line-height: normal;
+        border: 2px solid #FFF;
+        border-radius: 0;
+        background: #000;
+        padding: 15px 120px;
+        justify-content: center;
+        align-items: center;
+        color: #FFF;
+        font-family: 'Lato', sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .butMainBanner:hover {
+        background: rgb(50, 50, 50);
+    }
+    .bannerBox1{
+        left: 10%;
+        top: 39%;
+        position: absolute;
+        z-index: 2;
+    }
+    
+    .bannerTitle2{
+        top: 8%;
+        width: 410px;
+        left: 6%;
+        position: absolute;
+        z-index: 2;
+        font-family: 'Lato', sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .bannerDes{
+        top: 25%;
+        width: 300px;
+        left: 6%;
+        position: absolute;
+        font-family: 'Lato', sans-serif;
+        font-size: 24px;
+    }
+}

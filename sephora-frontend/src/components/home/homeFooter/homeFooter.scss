@@ -1,0 +1,27 @@
+#links {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  text-transform: none;
+}
+
+.main_footer {
+  background: var(--green, #688f74) !important;
+  text-align: left !important;
+  button {
+    text-align: start;
+    text-transform: none;
+    text-wrap: nowrap;
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    color: white;
+  }
+  .css-hi7qjz-MuiButtonBase-root-MuiButton-root:hover{
+    background: none;
+  }
+  .text{
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+  }
+}

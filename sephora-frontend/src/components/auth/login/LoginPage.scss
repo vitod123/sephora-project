@@ -1,0 +1,55 @@
+#buttonGoogleFacebook{
+    color: black;
+    border-color: black;
+    padding: 10px 50px;
+    text-transform: none;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    border-radius: 0;
+}
+
+#menu-appbar{
+    .text{
+        text-transform: none;
+        font-family: "Lato", sans-serif;
+        font-size: 20px;
+        color: black;
+        padding: 0;
+    }
+}
+
+hr{
+    width: 350px;
+    height: 1px;
+    border: none;
+}
+
+.login{
+    .or{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "Lato", sans-serif;
+    }
+    .registationButton{
+        font-family: "Lato", sans-serif;
+        font-size: 24px;
+        padding: 10px 150px;
+        text-transform: none;
+        border-radius: 0;
+        color: white;
+        background: black;
+        line-height: 1;
+    }
+    .registationButton:hover{
+        background: black;
+    }
+    .regBut{
+        font-family: "Lato", sans-serif;
+        font-size: 16px;
+        text-transform: none;
+        color: black;
+        border-radius: 0;
+        line-height: 1;
+        padding: 0;
+    }
+}

@@ -1,0 +1,42 @@
+.header{
+  .main_input {
+    display: flex;
+    width: 32%;
+    min-width: 400px;
+    height: 50px;
+    padding: 3px 10px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 14px;
+    border: 1px solid #000;
+    background: #fff;
+    outline: none;
+  }
+
+  .mainNav {
+    background: var(--green, #688f74);
+    padding: 10px;
+    color: #fff;
+  }
+  
+  .mainNav button, .mainNav a {
+    text-transform: none;
+    font-size: 18px;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    text-wrap: none;
+    white-space: nowrap;
+  }
+  
+  .lang_link {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+  }
+
+  .css-1e6y48t-MuiButtonBase-root-MuiButton-root:hover{
+    background: none;
+  }
+}

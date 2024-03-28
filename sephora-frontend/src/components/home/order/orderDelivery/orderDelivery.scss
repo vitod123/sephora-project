@@ -1,0 +1,33 @@
+.orderDelivery{
+    button{
+        background: black;
+        border-radius: 0;
+        color: white;
+        text-transform: none;
+        font-family: 'Lato', sans-serif;
+        font-size: 19px;
+    }
+    button:hover{
+        background: #3e3e3e;
+    }
+
+    .additionally{
+        
+        button{
+            background: none;
+            color: #797979;
+            justify-content: start;
+        }
+        .img{
+            color: #000;
+        }
+
+        .checkCallMe{   
+            font-family: 'Lato', sans-serif;
+            font-size: 18px;
+            padding: 10px;
+            text-wrap: wrap;
+            max-width: 350px;
+        }
+    }
+}

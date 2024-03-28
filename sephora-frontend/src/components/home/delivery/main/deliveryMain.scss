@@ -1,0 +1,69 @@
+.main_input {
+  display: flex;
+  padding: 3px 10px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  outline: none;
+}
+
+.mainPageDelivery{
+    .delivery{
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+        padding: 25px 20px;
+        border-radius: 0;
+        max-width: 480px;
+        color: black;
+        text-transform: none;
+    }
+      
+    .custom-input-underline {
+        &::before {
+            border-bottom-color: black; /* Колір за замовчуванням */
+        }
+        &:hover::before {
+            border-bottom-color: black; /* Колір при наведенні */
+        }
+        &::after {
+            border-bottom-color: black; /* Колір при нажатті */
+        }
+    }
+    .css-1e6y48t-MuiButtonBase-root-MuiButton-root :hover{
+        background: white;
+      }
+      
+    .deliveriesTitle{
+        font-size: 20px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+        height: 3rem;
+        text-align: center;
+    }
+    .deliveriesText{
+        font-size: 16px;
+        font-family: 'Lato', sans-serif;
+        height: 4.5rem;
+        text-align: center;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+    }
+    .title{
+        font-size: 32px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+    }
+    .titleDesc{
+        font-size: 24px;
+        font-family: 'Lato', sans-serif;
+        color: #646464;
+        text-align: center;
+    }
+    button{
+        border: none;
+        background: none;
+        margin: 0;
+        padding: 0;
+    }
+}
